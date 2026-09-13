@@ -11,23 +11,23 @@ const UpdateTodoBtn = document.getElementById('UpdateTodoBtn')
 
 
 
-// let TodosArr = [
-//     {
-//         todoItem: "HTML",
-//         todoId: '123'
-//     },
-//     {
-//         todoItem: "CSS",
-//         todoId: '124'
-//     },
-//      {
-//         todoItem: "JavaScript",
-//         todoId: '125'
-//     }
-// ];
+let TodosArr = [
+    {
+        todoItem: "HTML",
+        todoId: '123'
+    },
+    {
+        todoItem: "CSS",
+        todoId: '124'
+    },
+     {
+        todoItem: "JavaScript",
+        todoId: '125'
+    }
+];
 
 
-// localStorage.setItem('TodosArr' , JSON.stringify(TodosArr));
+localStorage.setItem('TodosArr' , JSON.stringify(TodosArr));
 // todosArr data :: DB(localstorage) 
 
 
