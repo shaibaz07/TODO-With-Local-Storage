@@ -11,30 +11,30 @@ const UpdateTodoBtn = document.getElementById('UpdateTodoBtn')
 
 
 
-let TodosArr = [
-    {
-        todoItem: "HTML",
-        todoId: '123'
-    },
-    {
-        todoItem: "CSS",
-        todoId: '124'
-    },
-     {
-        todoItem: "JavaScript",
-        todoId: '125'
-    }
-];
+// let TodosArr = [
+//     {
+//         todoItem: "HTML",
+//         todoId: '123'
+//     },
+//     {
+//         todoItem: "CSS",
+//         todoId: '124'
+//     },
+//      {
+//         todoItem: "JavaScript",
+//         todoId: '125'
+//     }
+// ];
 
 
-localStorage.setItem('TodosArr' , JSON.stringify(TodosArr));
+// localStorage.setItem('TodosArr' , JSON.stringify(TodosArr));
 // todosArr data :: DB(localstorage) 
 
 
 //API Call to GET todos data
-// let TodosJson = (localStorage.getItem("TodosArr")) || [];
-// // // cl(todosJson)
-// let todosArr = JSON.parse(TodosJson)    // JSON to convert JS array
+let TodosJson = (localStorage.getItem("TodosArr")) || [];
+// // cl(todosJson)
+let todosArr = JSON.parse(TodosJson)    // JSON to convert JS array
 // // cl(todosArr)
 
 
